@@ -1,15 +1,15 @@
-.C1{
-    width: 640px;
-    height: 360px;
+.carrossel{
+    width: 1280px;
+    height: 720px;
     overflow: hidden;
 }
 
-.C1 .F{
-    width: 1000%;
-    animation: joui 50s infinite;
+.carrossel .foto{
+    width: 1100%;
+    animation: joui 40s infinite;
 }
 
-.C1 .F img{
+.carrossel .foto img{
     width: 19.9%;
 }
 
@@ -35,4 +35,22 @@
     90%{margin-left: -900%;}
     98%{margin-left: -900%;}
     100%{margin-left: -1000%;}
+}
+
+body{
+   animation: fundo 50s infinite; 
+}
+
+@keyframes fundo{
+    0%{background-color: rgb(132, 0, 255);}
+    10%{background-color: rgb(255, 0, 0);}
+    20%{background-color: rgb(255, 255, 255);}
+    30%{background-color: rgb(8, 252, 0);}
+    40%{background-color: rgb(233, 13, 196);}
+    50%{background-color: rgb(7, 231, 247);}
+    60%{background-color: rgb(13, 219, 133);}
+    70%{background-color: rgb(29, 3, 54);}
+    80%{background-color: rgb(200, 255, 0);}
+    90%{background-color: rgb(15, 211, 81);}
+    100%{background-color: rgb(209, 37, 109);}
 }
