@@ -1,40 +1,89 @@
+.quadro{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 600px;
+    height: 400px;
+}
+
+.sombra{
+    width: 610px;
+    height: 410px;
+    position: absolute;
+    left: 350px;
+    top: 120px;
+    background-color: black;
+    border-radius: 25px;
+    animation: sombra 50s infinite; 
+}
+
+@keyframes sombra{
+    0%{background-color: rgb(170, 103, 94);}
+    8%{background-color: rgb(170, 103, 94);}
+    10%{background-color: rgb(129, 40, 5);}
+    18%{background-color: rgb(129, 40, 5);}
+    20%{background-color: rgb(136, 35, 136);}
+    28%{background-color: rgb(136, 35, 136);}
+    30%{background-color: rgb(66, 20, 20);}
+    38%{background-color: rgb(66, 20, 20);}
+    40%{background-color: rgb(110, 27, 158);}
+    48%{background-color: rgb(110, 27, 158);}
+    50%{background-color: rgb(19, 17, 17);}
+    58%{background-color: rgb(19, 17, 17);}
+    60%{background-color: rgb(12, 2, 2);}
+    68%{background-color: rgb(12, 2, 2);}
+    70%{background-color: rgb(88, 0, 0);}
+    78%{background-color: rgb(88, 0, 0);}
+    80%{background-color: rgb(2, 14, 13);}
+    88%{background-color: rgb(2, 14, 13);}
+    90%{background-color: rgb(26, 44, 34);}
+    98%{background-color: rgb(26, 44, 34);}
+    100%{background-color: rgb(170, 103, 94);}
+}
+
 .carrossel{
-    width: 1280px;
-    height: 720px;
+    width: 600px;
+    height: 400px;
     overflow: hidden;
+    background-color: rgba(0, 255, 255, 0);
+    border-radius: 25px;
 }
 
 .carrossel .foto{
-    width: 1100%;
-    animation: joui 40s infinite;
+    width: 1200%;
+    animation: ordem 50s infinite;
+    border-radius: 25px;
 }
 
 .carrossel .foto img{
-    width: 19.9%;
+    width: 20%;
+    border-radius: 25px;
+    width: 600px;
+    height: 400px;
 }
 
-@keyframes joui {
+@keyframes ordem {
     0% {margin-left: 0%;}
     8% {margin-left: 0%;}
-    10%{margin-left: -100%;}
-    18%{margin-left: -100%;}
-    20%{margin-left: -200%;}
-    28%{margin-left: -200%;}
-    30%{margin-left: -300%;}
-    38%{margin-left: -300%;}
-    40%{margin-left: -400%;}
-    48%{margin-left: -400%;}
-    50%{margin-left: -500%;}
-    58%{margin-left: -500%;}
-    60%{margin-left: -600%;}
-    68%{margin-left: -600%;}
-    70%{margin-left: -700%;}
-    78%{margin-left: -700%;}
-    80%{margin-left: -800%;}
-    88%{margin-left: -800%;}
-    90%{margin-left: -900%;}
-    98%{margin-left: -900%;}
-    100%{margin-left: -1000%;}
+    10%{margin-left: -101%;}
+    18%{margin-left: -101%;}
+    20%{margin-left: -202%;}
+    28%{margin-left: -202%;}
+    30%{margin-left: -302%;}
+    38%{margin-left: -302%;}
+    40%{margin-left: -403%;}
+    48%{margin-left: -403%;}
+    50%{margin-left: -504%;}
+    58%{margin-left: -504%;}
+    60%{margin-left: -604%;}
+    68%{margin-left: -604%;}
+    70%{margin-left: -705%;}
+    78%{margin-left: -705%;}
+    80%{margin-left: -805%;}
+    88%{margin-left: -805%;}
+    90%{margin-left: -906%;}
+    98%{margin-left: -906%;}
+    100%{margin-left: -1006%;}
 }
 
 body{
@@ -42,15 +91,95 @@ body{
 }
 
 @keyframes fundo{
-    0%{background-color: rgb(132, 0, 255);}
-    10%{background-color: rgb(255, 0, 0);}
-    20%{background-color: rgb(255, 255, 255);}
-    30%{background-color: rgb(8, 252, 0);}
-    40%{background-color: rgb(233, 13, 196);}
-    50%{background-color: rgb(7, 231, 247);}
-    60%{background-color: rgb(13, 219, 133);}
-    70%{background-color: rgb(29, 3, 54);}
-    80%{background-color: rgb(200, 255, 0);}
-    90%{background-color: rgb(15, 211, 81);}
-    100%{background-color: rgb(209, 37, 109);}
+    0%{background-color: rgb(221, 131, 120);}
+    8%{background-color: rgb(221, 131, 120);}
+    10%{background-color: rgb(199, 61, 7);}
+    18%{background-color: rgb(199, 61, 7);}
+    20%{background-color: rgb(235, 64, 235);}
+    28%{background-color: rgb(235, 64, 235);}
+    30%{background-color: rgb(107, 32, 32);}
+    38%{background-color: rgb(107, 32, 32);}
+    40%{background-color: rgb(160, 38, 231);}
+    48%{background-color: rgb(160, 38, 231);}
+    50%{background-color: rgb(43, 39, 39);}
+    58%{background-color: rgb(43, 39, 39);}
+    60%{background-color: rgb(54, 7, 7);}
+    68%{background-color: rgb(54, 7, 7);}
+    70%{background-color: rgb(255, 0, 0);}
+    78%{background-color: rgb(255, 0, 0);}
+    80%{background-color: rgb(4, 32, 30);}
+    88%{background-color: rgb(4, 32, 30);}
+    90%{background-color: rgb(51, 88, 67);}
+    98%{background-color: rgb(51, 88, 67);}
+    100%{background-color: rgb(221, 131, 120);}
+}
+
+.sombra-lateral-esquerda{
+    width: 160px;
+    height: 410px;
+    top: 75px;
+    left: 100px;
+    background-color: black;
+    position: absolute;
+    border-radius: 25px;
+    animation: sombra 50s infinite;
+}
+
+.quadro-lateral-esquerda{
+    width: 150px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 25px;
+}
+
+.sombra-lateral-direita{
+    width: 160px;
+    height: 410px;
+    top: 75px;
+    left: 1050px;
+    background-color: black;
+    position: absolute;
+    border-radius: 25px;
+    animation: sombra 50s infinite;
+}
+
+.quadro-lateral-direita{
+    width: 150px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 25px;
+}
+
+
+.carrossel-laterais{
+    width: 150px;
+    height: 400px;
+    overflow: hidden;
+    background-color: rgba(0, 255, 255, 0);
+    border-radius: 25px;
+}
+
+.carrossel-laterais .fotos-laterais{
+    width: 400%;
+    animation: ordem1 50s infinite;
+    border-radius: 25px;
+}
+
+.carrossel-laterais .fotos-laterais img{
+    width: 20%;
+    border-radius: 25px;
+    width: 150px;
+    height: 400px;
+}
+
+@keyframes ordem1{
+    0%{margin-left: 0;}
+    48%{margin-left: 0;}
+    50%{margin-left: -101%;}
+    98%{margin-left: -101%;}
+    100%{margin-left: -202%;}
 }
