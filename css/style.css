@@ -10,7 +10,7 @@
     width: 610px;
     height: 410px;
     position: absolute;
-    left: 350px;
+    left: 360px;
     top: 120px;
     background-color: black;
     border-radius: 25px;
@@ -114,72 +114,82 @@ body{
     100%{background-color: rgb(221, 131, 120);}
 }
 
-.sombra-lateral-esquerda{
-    width: 160px;
-    height: 410px;
-    top: 75px;
-    left: 100px;
+.sombra-1{
+    width: 260px;
+    height: 260px;
+    top: 55px;
+    left: 35px;
     background-color: black;
     position: absolute;
     border-radius: 25px;
     animation: sombra 50s infinite;
 }
 
-.quadro-lateral-esquerda{
-    width: 150px;
-    height: 400px;
+.quadro-1 img{
+    width: 250px;
+    height: 250px;
     top: 0;
     left: 0;
     position: absolute;
     border-radius: 25px;
 }
 
-.sombra-lateral-direita{
-    width: 160px;
-    height: 410px;
-    top: 75px;
-    left: 1050px;
+.sombra-2{
+    width: 260px;
+    height: 260px;
+    top: 400px;
+    left: 35px;
     background-color: black;
     position: absolute;
     border-radius: 25px;
     animation: sombra 50s infinite;
 }
 
-.quadro-lateral-direita{
-    width: 150px;
-    height: 400px;
+.quadro-2 img{
+    width: 250px;
+    height: 250px;
     top: 0;
     left: 0;
     position: absolute;
     border-radius: 25px;
 }
 
+.sombra-3{
+    width: 260px;
+    height: 260px;
+    top: 400px;
+    left: 1030px;
+    background-color: black;
+    position: absolute;
+    border-radius: 25px;
+    animation: sombra 50s infinite;
+}
 
-.carrossel-laterais{
-    width: 150px;
-    height: 400px;
-    overflow: hidden;
-    background-color: rgba(0, 255, 255, 0);
+.quadro-3 img{
+    width: 250px;
+    height: 250px;
+    top: 0;
+    left: 0;
+    position: absolute;
     border-radius: 25px;
 }
 
-.carrossel-laterais .fotos-laterais{
-    width: 400%;
-    animation: ordem1 50s infinite;
+.sombra-4{
+    width: 260px;
+    height: 260px;
+    top: 55px;
+    left: 1030px;
+    background-color: black;
+    position: absolute;
     border-radius: 25px;
+    animation: sombra 50s infinite;
 }
 
-.carrossel-laterais .fotos-laterais img{
-    width: 20%;
+.quadro-4 img{
+    width: 250px;
+    height: 250px;
+    top: 0;
+    left: 0;
+    position: absolute;
     border-radius: 25px;
-    width: 150px;
-    height: 400px;
-}
-
-@keyframes ordem1{
-    0%{margin-left: 0;}
-    48%{margin-left: 0;}
-    50%{margin-left: -101%;}
-    98%{margin-left: -101%;}
-    100%{margin-left: -202%;}
 }
