@@ -11,7 +11,7 @@
     height: 410px;
     position: absolute;
     left: 360px;
-    top: 120px;
+    top: 150px;
     background-color: black;
     border-radius: 25px;
     animation: sombra 50s infinite; 
@@ -192,4 +192,12 @@ body{
     left: 0;
     position: absolute;
     border-radius: 25px;
+}
+
+.titulo{
+    position: absolute;
+    left: 510px;
+    top: 20px;
+    width: 200px;
+    height: 69px;
 }
